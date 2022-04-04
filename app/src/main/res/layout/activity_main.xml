@@ -6,88 +6,94 @@
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
+    <androidx.appcompat.widget.Toolbar
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:app="http://schemas.android.com/apk/res-auto"
+        android:id="@+id/appbar"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:minHeight="?attr/actionBarSize"
+        android:background="?attr/colorPrimary"
+        android:elevation="4dp"
+        android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"
+        app:popupTheme="@style/ThemeOverlay.AppCompat.Light"/>
+
     <ImageView
         android:id="@+id/logo"
         android:layout_width="370dp"
         android:layout_height="45dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="10dp"
+        android:layout_marginTop="66dp"
         app:srcCompat="@drawable/logoapp"></ImageView>
-
-    <Button
-        android:id="@+id/btn_TomarFoto"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_above="@+id/button2"
-        android:layout_centerInParent="true"
-        android:text="Tomar Foto"
-        android:textAllCaps="false"
-        android:textSize="21sp"
-        android:textStyle="bold"></Button>
-
-    <Button
-        android:id="@+id/button2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_alignParentBottom="true"
-        android:text="Galería"
-        android:textAllCaps="false"
-        android:textSize="21sp"
-        android:textStyle="bold"></Button>
-
 
     <ImageView
         android:id="@+id/image"
-        android:layout_width="357dp"
-        android:layout_height="292dp"
+        android:layout_width="match_parent"
+        android:layout_height="427dp"
+        android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_centerHorizontal="true"
-        android:layout_marginTop="72dp"></ImageView>
+        android:layout_marginTop="129dp"></ImageView>
 
-    <TextView
-        android:id="@+id/txtResult2"
+    <RelativeLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_below="@id/image"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="18dp"
-        android:layout_marginTop="80dp"
-        android:layout_marginEnd="-1dp"
-        android:text="Otros"
-        android:textSize="18sp"
-        android:textStyle="bold"></TextView>
 
-    <TextView
-        android:id="@+id/txtResult"
-        android:layout_width="match_parent"
+        android:layout_marginEnd="0dp">
+
+
+        <TextView
+            android:id="@+id/name2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#FFEB3B"
+            android:text="Resultado"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/txtResult"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/name2"
+            android:layout_alignParentEnd="true"
+            android:layout_marginTop="6dp"
+            android:layout_marginEnd="0dp"
+            android:text="Primer resultado"
+            android:textColor="#6D983B"
+            android:textSize="20sp"
+            android:textStyle="bold"></TextView>
+
+        <TextView
+            android:id="@+id/txtResult2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/txtResult"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="10dp"
+            android:layout_marginEnd="0dp"
+            android:layout_marginBottom="0dp"
+            android:text="Segundo resultado"
+            android:textColor="#070707"
+            android:textSize="18sp"
+            android:textStyle="bold"></TextView>
+
+
+    </RelativeLayout>
+
+    <com.google.android.material.floatingactionbutton.FloatingActionButton
+        android:id="@+id/floating_action_button"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/image"
-        android:layout_alignParentStart="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginStart="16dp"
-        android:layout_marginTop="43dp"
-        android:layout_marginEnd="0dp"
-        android:text="Primer resultado"
-        android:textColor="#6D983B"
-        android:textSize="20sp"
-        android:textStyle="bold"></TextView>
-
-    <TextView
-        android:id="@+id/name2"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_below="@id/image"
-        android:layout_alignParentStart="true"
-        android:layout_alignParentEnd="true"
-        android:layout_marginStart="0dp"
-        android:layout_marginTop="9dp"
-        android:layout_marginEnd="3dp"
-        android:background="#FFEB3B"
-        android:text="Resultado"
-        android:textAlignment="center"
-        android:textSize="20sp"
-        android:textStyle="bold"></TextView>
-
+        android:layout_alignParentBottom="true"
+        android:layout_gravity="bottom|right"
+        android:layout_marginEnd="20dp"
+        android:layout_marginBottom="21dp"
+        android:contentDescription="NavView"
+        android:onClick="onClick"
+        app:srcCompat="@drawable/cameraicon" />
 </RelativeLayout>
