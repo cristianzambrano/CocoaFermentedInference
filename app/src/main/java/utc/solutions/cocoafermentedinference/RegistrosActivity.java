@@ -1,13 +1,10 @@
-package uteq.solutions.cocoafermentedinference;
+package utc.solutions.cocoafermentedinference;
 
 import androidx.appcompat.app.AppCompatActivity;
 
-import android.annotation.SuppressLint;
-import android.database.Cursor;
 import android.os.Bundle;
-import android.widget.Toast;
 
-import data.RegistrosDbHelper;
+import uteq.solutions.cocoafermentedinference.R;
 
 
 public class RegistrosActivity extends AppCompatActivity {

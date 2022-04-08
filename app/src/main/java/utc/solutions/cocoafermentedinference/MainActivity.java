@@ -1,4 +1,4 @@
-package uteq.solutions.cocoafermentedinference;
+package utc.solutions.cocoafermentedinference;
 
 import androidx.annotation.Nullable;
 import androidx.annotation.RequiresApi;
@@ -10,7 +10,6 @@ import android.content.Context;
 import android.content.ContextWrapper;
 import android.content.Intent;
 import android.content.pm.PackageManager;
-import android.database.Cursor;
 import android.graphics.Bitmap;
 import android.media.ThumbnailUtils;
 import android.net.Uri;
@@ -20,7 +19,6 @@ import android.provider.MediaStore;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
-import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 import android.widget.Toast;
@@ -40,6 +38,7 @@ import org.tensorflow.lite.support.label.Category;
 
 import data.Registro;
 import data.RegistrosDbHelper;
+import uteq.solutions.cocoafermentedinference.R;
 import uteq.solutions.cocoafermentedinference.ml.FermentedCocoaBean;
 
 public class MainActivity extends AppCompatActivity {

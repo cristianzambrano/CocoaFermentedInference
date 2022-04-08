@@ -1,4 +1,4 @@
-package uteq.solutions.cocoafermentedinference;
+package utc.solutions.cocoafermentedinference;
 
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
@@ -15,6 +15,7 @@ import java.util.ArrayList;
 import Adaptador.adaptadorRegistros;
 import data.Registro;
 import data.RegistrosDbHelper;
+import uteq.solutions.cocoafermentedinference.R;
 
 public class ListaregistroActivity extends AppCompatActivity {
 
