@@ -1,10 +1,11 @@
-package utc.solutions.cocoafermentedinference;
+package uteq.solutions.cocoafermentedinference;
 
 import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
 import uteq.solutions.cocoafermentedinference.R;
+
 
 
 public class RegistrosActivity extends AppCompatActivity {

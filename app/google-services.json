@@ -1,0 +1,68 @@
+{
+  "project_info": {
+    "project_number": "630764909498",
+    "project_id": "fermentedcocoabeans-classifier",
+    "storage_bucket": "fermentedcocoabeans-classifier.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630764909498:android:03da155f83ae509038a383",
+        "android_client_info": {
+          "package_name": "com.example.storage"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630764909498-rvdk7g7j8lo31ht3kb7mkd1vrok3cv6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByyGVhsidQIUsiTgdm1ticgw4TzqPzJ54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630764909498-rvdk7g7j8lo31ht3kb7mkd1vrok3cv6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:630764909498:android:fa28ad17008009b638a383",
+        "android_client_info": {
+          "package_name": "uteq.solutions.cocoafermentedinference"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "630764909498-rvdk7g7j8lo31ht3kb7mkd1vrok3cv6r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyByyGVhsidQIUsiTgdm1ticgw4TzqPzJ54"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "630764909498-rvdk7g7j8lo31ht3kb7mkd1vrok3cv6r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

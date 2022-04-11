@@ -6,9 +6,12 @@
         <entry key="app/src/main/res/drawable/animated_minus.xml" value="0.169" />
         <entry key="app/src/main/res/drawable/animated_plus.xml" value="0.169" />
         <entry key="app/src/main/res/drawable/fab_background.xml" value="0.169" />
+        <entry key="app/src/main/res/drawable/ic_launcher_background.xml" value="0.169" />
         <entry key="app/src/main/res/drawable/minus.xml" value="0.169" />
         <entry key="app/src/main/res/drawable/plus.xml" value="0.169" />
+        <entry key="app/src/main/res/drawable/viewregsicon.xml" value="0.169" />
         <entry key="app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="app/src/main/res/layout/activity_upload_img_to_storage.xml" value="0.19791666666666666" />
         <entry key="app/src/main/res/layout/fab.xml" value="0.2296875" />
         <entry key="app/src/main/res/layout/item_registro.xml" value="0.2296875" />
         <entry key="app/src/main/res/layout/listaregistro_act.xml" value="0.2296875" />

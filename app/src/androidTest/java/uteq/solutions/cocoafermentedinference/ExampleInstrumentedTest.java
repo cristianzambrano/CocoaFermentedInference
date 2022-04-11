@@ -1,4 +1,4 @@
-package utc.solutions.cocoafermentedinference;
+package uteq.solutions.cocoafermentedinference;
 
 import android.content.Context;
 

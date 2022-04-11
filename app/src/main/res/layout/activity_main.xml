@@ -30,10 +30,57 @@
     <ImageView
         android:id="@+id/image"
         android:layout_width="match_parent"
-        android:layout_height="427dp"
+        android:layout_height="408dp"
         android:layout_alignParentStart="true"
         android:layout_alignParentTop="true"
-        android:layout_marginTop="129dp"></ImageView>
+        android:layout_marginTop="129dp"
+        app:srcCompat="@drawable/iconcocoaapp"></ImageView>
+
+
+    <LinearLayout
+        android:id="@+id/btn_new"
+        android:layout_width="wrap_content"
+        android:layout_height="48dp"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/btn_nuevo"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Nueva"
+            android:onClick="onBtNuevo"
+            android:textSize="12sp"
+            app:icon="@drawable/iconnew" />
+
+        <Button
+            android:id="@+id/save_btn"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:textSize="12sp"
+            android:onClick="onBtGuardarLocal"
+            android:text="Guardar"
+            app:icon="@drawable/iconsavelocal"/>
+
+        <Button
+            android:id="@+id/btfirebase"
+            style="?attr/buttonBarButtonStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:text="Subir"
+            android:onClick="obBtExportar"
+
+            android:textSize="12sp"
+            app:icon="@drawable/iconupload" />
+
+
+
+    </LinearLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"
@@ -61,7 +108,7 @@
             android:layout_alignParentEnd="true"
             android:layout_marginTop="6dp"
             android:layout_marginEnd="0dp"
-            android:text="Primer resultado"
+            android:text="Primer Resultado: 0.00%"
             android:textColor="#6D983B"
             android:textSize="20sp"
             android:textStyle="bold"></TextView>
@@ -76,7 +123,7 @@
             android:layout_marginTop="10dp"
             android:layout_marginEnd="0dp"
             android:layout_marginBottom="0dp"
-            android:text="Segundo resultado"
+            android:text="Resultados Secundarios: 0.00%"
             android:textColor="#070707"
             android:textSize="18sp"
             android:textStyle="bold"></TextView>
@@ -85,7 +132,7 @@
     </RelativeLayout>
 
     <com.google.android.material.floatingactionbutton.FloatingActionButton
-        android:id="@+id/floating_action_button"
+        android:id="@+id/btSubir"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_alignParentEnd="true"

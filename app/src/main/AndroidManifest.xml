@@ -1,17 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="utc.solutions.cocoafermentedinference">
+    package="uteq.solutions.cocoafermentedinference">
 
     <uses-permission
         android:name="android.permission.ACCESS_FINE_LOCATION"
         tools:ignore="CoarseFineLocation" />
     <uses-permission android:name="android.permission.INTERNET" />
     <uses-permission android:name="android.permission.CAMERA" />
-
-    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
-    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
-   >
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
 
     <application
         android:allowBackup="true"
@@ -21,15 +18,16 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CocoaFermentedInference">
         <activity
-            android:name="utc.solutions.cocoafermentedinference.ListaregistroActivity"
-            android:exported="true" >
-
-        </activity>
+            android:name=".UploadImgToStorage"
+            android:exported="false" />
         <activity
-            android:name="utc.solutions.cocoafermentedinference.RegistrosActivity"
-            android:exported="false"></activity>
+            android:name=".ListaregistroActivity"
+            android:exported="true"></activity>
         <activity
-            android:name="utc.solutions.cocoafermentedinference.MainActivity"
+            android:name=".RegistrosActivity"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />

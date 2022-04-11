@@ -15,4 +15,11 @@
         android:title="Lista de Registros"
         app:showAsAction="always"></item>
 
+    <item
+        android:id="@+id/mmnuDownloadModelo"
+        android:icon="@drawable/icondownloadmodel"
+        android:orderInCategory="101"
+        android:title="Download Modelo"
+        app:showAsAction="always"></item>
+
 </menu>
